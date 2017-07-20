@@ -7,6 +7,20 @@ and [creating pages](https://jekyllrb.com/docs/pages/).
 
 - **GitHub**: Fork this reposity and create a branch named `gh-pages`, then start editing the `_config.yml` file! The `.gitlab-ci.yml` file is only needed for GitLab Pages, so feel free to delete this if you are using GitHub instead.
 
+To run with docker:
+```bash
+# Build image
+docker build -t blog .
+
+# Run (PATH = path to your project dir)
+docker run --rm -it -v PATH/gosport-blog:/app -p 4000:4000 --name gosport-blog blog
+# Stop running (If ran without --rm and -it)
+docker stop gosport-blog
+
+# And Remove image
+docker rmi blog
+```
+
 # Added Features
 
 * **[Formspree.io](https://formspree.io/) contact form integration** - just add your email to the `_config.yml` and it works!
