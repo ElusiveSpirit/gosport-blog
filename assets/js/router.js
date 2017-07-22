@@ -32,18 +32,27 @@
 
   function animatedPageLoading(href, pushState=true) {
     var $wrapper = $('#wrapper'),
-        $this = $(this);
+        $menu = $('#menu'),
+        $this = $(this),
+        timeout = 500;
 
     // Start transitioning.
-    $wrapper.addClass('is-transitioning');
+    if (!$this.hasClass('menu-link')) {
+      // If not a menu link
+      $wrapper.addClass('is-transitioning');
+    } else {
+      timeout = 4;
+    }
     // Redirect.
     window.setTimeout(function() {
       if ($this.attr('target') == '_blank') {
         window.open(href);
       } else {
+        removeLinkListeners();
         loadPage(href, pushState)
           .then(function() {
             $wrapper.removeClass('is-transitioning');
+
             pageScripts.all();
             addLinkListeners();
           })
@@ -51,20 +60,28 @@
             location.href = href;
           })
       }
-    }, 500);
+    }, timeout);
+  }
+
+  function linkListener(event) {
+    if (this.href.indexOf('#') !== -1)
+      return false
+
+    // Prevent default.
+    event.preventDefault();
+
+    animatedPageLoading.bind(this)(this.href);
   }
 
   function addLinkListeners() {
     document.querySelectorAll('a').forEach(function(el) {
-      el.addEventListener('click', function(event) {
-        if (this.href.indexOf('#') !== -1)
-          return false
+      el.addEventListener('click', linkListener)
+    })
+  }
 
-        // Prevent default.
-        event.preventDefault();
-
-        animatedPageLoading(this.href);
-      })
+  function removeLinkListeners() {
+    document.querySelectorAll('a').forEach(function(el) {
+      el.removeEventListener('click', linkListener)
     })
   }
 
