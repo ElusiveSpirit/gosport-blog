@@ -41,9 +41,10 @@
       if ($this.attr('target') == '_blank') {
         window.open(href);
       } else {
-        loadPage(href)
+        loadPage(href, pushState)
           .then(function() {
             $wrapper.removeClass('is-transitioning');
+            pageScripts.all();
             addLinkListeners();
           })
           .catch(function(error) {
@@ -60,7 +61,6 @@
           return false
 
         // Prevent default.
-        event.stopPropagation();
         event.preventDefault();
 
         animatedPageLoading(this.href);
