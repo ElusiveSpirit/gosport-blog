@@ -17,6 +17,8 @@ phone:
 tiles-source: posts # accepts "posts" or "pages"
 tiles-count: 6
 
+permalink: pretty
+
 # social settings
 500px_url:
 facebook_url:
