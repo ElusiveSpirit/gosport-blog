@@ -24,8 +24,8 @@
   <meta property="og:url" content="{{ page.url | absolute_url }}" />
 {% endif %}
 
-{% if site.title %}
-  <meta property="og:site_name" content="{{ site.title }}" />
+{% if site.name %}
+  <meta property="og:site_name" content="{{ site.name }}" />
 {% endif %}
 
 {% if page.image %}
@@ -102,7 +102,7 @@
 {
   "@context":"http://schema.org",
   "@type":"{% if page.layout == 'post' %}BlogPosting{% else %}WebSite{% endif %}",
-  "name":"{{ site.title }}",
+  "name":"{{ site.name }}",
   "headline":"{{ page.title }}",
   "description":"{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}",
   "url":"{{ page.url | absolute_url }}"

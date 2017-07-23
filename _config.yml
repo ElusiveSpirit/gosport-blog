@@ -3,7 +3,7 @@ title: GoSport
 subtitle: Online
 email: info@gosport.online
 lang: ru_RU
-title: GOSPORT - молодёжное общественное движение
+name: GOSPORT - молодёжное общественное движение
 description: Мы - молодёжное общественное движение, объединяющее жителей нашей страны. Миссия нашего движения – дать молодым и активным ребятам возможность реализовать свои проекты на благо нашей родины.
 baseurl: "/gosport-blog" # the subpath of your site, e.g. /blog
 url: "https://elusivespirit.github.io" # the base hostname & protocol for your site
