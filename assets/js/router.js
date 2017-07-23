@@ -36,6 +36,10 @@
         $this = $(this),
         timeout = 500;
 
+    if ($this.attr('target') == '_blank') {
+      window.open(href);
+      return;
+    }
     // Start transitioning.
     if (!$this.hasClass('menu-link')) {
       // If not a menu link
@@ -45,21 +49,17 @@
     }
     // Redirect.
     window.setTimeout(function() {
-      if ($this.attr('target') == '_blank') {
-        window.open(href);
-      } else {
-        removeLinkListeners();
-        loadPage(href, pushState)
-          .then(function() {
-            $wrapper.removeClass('is-transitioning');
+      removeLinkListeners();
+      loadPage(href, pushState)
+        .then(function() {
+          $wrapper.removeClass('is-transitioning');
 
-            pageScripts.all();
-            addLinkListeners();
-          })
-          .catch(function(error) {
-            location.href = href;
-          })
-      }
+          pageScripts.all();
+          addLinkListeners();
+        })
+        .catch(function(error) {
+          location.href = href;
+        })
     }, timeout);
   }
 
