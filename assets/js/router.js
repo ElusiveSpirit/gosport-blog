@@ -16,6 +16,7 @@
           el.innerHTML = response.data;
           title = $('title', el).html();
           html = $('#wrapper', el).html();
+          document.title = title;
           if (pushState) {
             history.pushState(null, title, href);
           }
