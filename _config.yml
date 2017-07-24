@@ -44,3 +44,13 @@ webmaster_verifications:
   bing:
   alexa:
   yandex:
+
+gems:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - package.json
+  - package-lock.json
+  - node_modules
+  - gulpfile.js
