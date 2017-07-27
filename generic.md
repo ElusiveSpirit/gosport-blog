@@ -1,4 +1,5 @@
 ---
+
 layout: post
 title: Generic
 description: Lorem ipsum dolor est
@@ -6,7 +7,7 @@ image: assets/images/pic11.jpg
 nav-menu: true
 ---
 
-![картинка](/assets/images/logo.png){:style="max-width:100px"}
+![картинка](/assets/images/logo.png){:style="max-width:1000px"}
 
 ## title
 
