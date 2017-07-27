@@ -3,7 +3,7 @@ layout: home
 title: Главная
 landing-title: 'GoSport Online'
 description: null
-image: null
+image: home.jpg
 author: null
 ---
 
