@@ -2,9 +2,11 @@
 title: GoSport
 subtitle: Online
 email: info@gosport.online
+lang: ru_RU
+name: GOSPORT - молодёжное общественное движение
 description: Мы - молодёжное общественное движение, объединяющее жителей нашей страны. Миссия нашего движения – дать молодым и активным ребятам возможность реализовать свои проекты на благо нашей родины.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+baseurl: "/gosport-blog" # the subpath of your site, e.g. /blog
+url: "https://elusivespirit.github.io" # the base hostname & protocol for your site
 author:
 street_address: Большой Ржевский переулок, 5
 city: Москва
@@ -16,6 +18,8 @@ phone:
 # homepage tiles
 tiles-source: posts # accepts "posts" or "pages"
 tiles-count: 6
+
+permalink: pretty
 
 # social settings
 500px_url:
@@ -33,3 +37,20 @@ markdown: kramdown
 
 sass:
   style: compressed
+
+# SEO
+webmaster_verifications:
+  google: true
+  bing:
+  alexa:
+  yandex:
+
+gems:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - package.json
+  - package-lock.json
+  - node_modules
+  - gulpfile.js

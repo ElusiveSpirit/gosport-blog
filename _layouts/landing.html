@@ -1,34 +1,23 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default
+---
 
-    {% include head.html %}
+<section id="banner" class="style2">
+    <div class="inner">
+        <span class="image">
+            <img src="{{ site.baseurl }}/{{ page.image }}" alt="">
+        </span>
+        <header class="major">
 
-    <body>
+            <h1>{{ page.title }}</h1>
 
-        {% include header.html %}
+        </header>
+        <div class="content">
 
-        <section id="banner" class="style2">
-            <div class="inner">
-                <span class="image">
-                    <img src="{{ site.baseurl }}/{{ page.image }}" alt="">
-                </span>
-                <header class="major">
+            {{ page.description }}
 
-                    <h1>{{ page.title }}</h1>
+        </div>
+    </div>
+</section>
 
-                </header>
-                <div class="content">
-
-                    {{ page.description }}
-
-                </div>
-            </div>
-        </section>
-
-    {{ content }}
-
-    {% include footer.html %}
-
-</body>
-
-</html>
+{{ content }}
