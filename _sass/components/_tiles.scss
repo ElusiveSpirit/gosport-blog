@@ -28,6 +28,7 @@
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: cover;
+			color: _palette(fg-alt);
 			cursor: default;
 			height: 40vh;
 			max-height: 40em;
@@ -46,12 +47,17 @@
 			}
 
 			h3 {
+				color: _palette(fg-alt);
 				font-size: 1.75em;
 
 				a {
 					&:hover {
 						color: inherit !important;
 					}
+				}
+
+				&:after {
+					background-color: _palette(fg-alt) !important;
 				}
 			}
 
