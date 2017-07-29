@@ -75,11 +75,11 @@ permalink: /landing
 <section id="three">
 	<div class="inner">
 		<header class="major">
-			<h2>Massa libero</h2>
+			<h2>Социальная сеть #Go</h2>
 		</header>
-		<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+		<p>Для общения и связи между собой наше молодежное движение решила создать свою социальною сеть, что бы объединить всех спортсменов и активных людей там,  дать им возможность удобно и централизованно узнавать о мероприятиях, выставках, координироваться между собой, записываться на турниры и создавать свои профили команд. На данный момент социальная сеть #Go находиться в открытом альфа тестировании. Вы можите зарегистрироваться и опробовать урезанную версию основного функционала. Обновление стиля сайта а так же функционала с добавлением новых элементов запланировано на ближайшее время.</p>
 		<ul class="actions">
-			<li><a href="generic.html" class="button next">Get Started</a></li>
+			<li><a href="https://gosport.online" class="button next">Присоединиться</a></li>
 		</ul>
 	</div>
 </section>

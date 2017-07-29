@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Elements
+title: Команда
 nav-menu: true
 ---
 
