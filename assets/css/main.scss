@@ -13,6 +13,28 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+ul.nav.nav-tabs {
+	list-style: none;
+}
+
+ul.nav.nav-tabs li {
+	float: left;
+}
+
+ul.nav.nav-tabs li::last {
+	float: none;
+}
+
+.tab-pane {
+	display: none;
+}
+
+.tab-pane.active {
+	display: block;
+	float: none;
+}
+
+
 	@include skel-breakpoints((
 		xlarge: '(max-width: 1680px)',
 		large: '(max-width: 1280px)',
