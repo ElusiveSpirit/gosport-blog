@@ -1,0 +1,8 @@
+#map {
+   width: 100%;
+   height: 40vh;
+
+   @media screen and (max-width: 726px) {
+     height: 70vh;
+   }
+}
