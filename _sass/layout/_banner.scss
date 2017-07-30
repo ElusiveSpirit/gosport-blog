@@ -124,6 +124,23 @@
 					letter-spacing: _font(letter-spacing-alt);
 					text-transform: uppercase;
 				}
+
+				ul {
+					display: flex;
+
+					@media screen and (max-width: 726px) {
+						flex-direction: column;
+
+						li {
+							padding: 0;
+							margin-bottom: 10px;
+						}
+
+						.button {
+							width: 100%;
+						}
+					}
+				}
 			}
 		}
 
