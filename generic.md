@@ -25,33 +25,87 @@ nav-menu: true
 </script>
 
 <ul class="nav nav-tabs" id="myTab">
-  <li class="active"><a href="#organization">Организация</a></li>
-  <li><a href="#media">Медиа</a></li>
-  <li><a href="#it-tech">IT-технологии</a></li>
-  <li><a href="#prodaction">Производство</a></li>
-  <li><a href="#typography">Типография</a></li>
-  <li><a href="#advertising">Реклама</a></li>
-  <li><a href="#producing">Продюсерство</a></li>
-  <li><a href="#prodaction">Производство</a></li>
-  <li><a href="#organization">Организация</a></li>
-  <li><a href="#media">Медиа</a></li>
-  <li><a href="#it-tech">IT-технологии</a></li>
-  <li><a href="#prodaction">Производство</a></li>
+  <li class="active 2u 6u(small)"><a href="#organization" data-toggle="pill">Организация</a></li>
+  <li class="2u 6u(small)"><a href="#media" data-toggle="pill">Медиа</a></li>
+  <li class="2u 6u(small)"><a href="#it-tech" data-toggle="pill">IT-технологии</a></li>
+  <li class="2u 6u(small)"><a href="#prodaction" data-toggle="pill">Производство</a></li>
+  <li class="2u 6u(small)"><a href="#typography" data-toggle="pill">Типография</a></li>
+  <li class="2u 6u(small)"><a href="#advertising" data-toggle="pill">Реклама</a></li>
+  <li class="2u 6u(small)"><a href="#producing" data-toggle="pill">Продюсерство</a></li>
+  <li class="2u 6u(small)"><a href="#inf-help" data-toggle="pill">Инф. поддержка</a></li>
+  <li class="2u 6u(small)"><a href="#volunteering" data-toggle="pill">Волонтерство</a></li>
+  <li class="2u 6u(small)"><a href="#promotion" data-toggle="pill">СМИ</a></li>
+  <li class="2u 6u(small)"><a href="#analytic" data-toggle="pill">Аналитика</a></li>
+  <li class="2u 6u(small)"><a href="#design" data-toggle="pill">Дизайн</a></li>
 </ul>
 
 <br>
 
 <div class="tab-content">
-  <div class="tab-pane active" id="organization">Организация</div>
-  <div class="tab-pane" id="media">Медиа</div>
-  <div class="tab-pane" id="it-tech">IT-технологии</div>
+  <div class="tab-pane active" id="organization">
+    <span class="image"><img src="../assets/images/organization.jpg" alt="" /></span>
+    <h3>Организация</h3>
+    <p>
+      ?Какое-то описание?<br><br>
+      <b>Организация и проведение мероприятий любой направленности:</b><br>
+      1) Спортивные<br>
+      2) Культурные<br>
+      3) Церемонии открытий и корпоративные мероприятия<br>
+      4) Благотворительные
+      5) Пресс-конференции<br>
+      6) Пиар компаний, рекламные акций<br>
+      7) Флэш-мобы<br>
+      8) Выстави<br>
+      9) Музыкальные концерты<br>
+      10) Организация питания (кейтеринг)<br>
+      11) Организация продаж сувинирной продукции<br>
+    </p>
+  </div>
+  <div class="tab-pane" id="media">
+  <span class="image"><img src="../assets/images/media.jpg" alt="" /></span>
+  <h3>Медиа</h3>
+  <p>
+    ?Какое-то описание?<br><br>
+    <b>Организация и проведение мероприятий любой направленности:</b><br>
+    1) Спортивные<br>
+    2) Культурные<br>
+    3) Церемонии открытий и корпоративные мероприятия<br>
+    4) Благотворительные
+    5) Пресс-конференции<br>
+    6) Пиар компаний, рекламные акций<br>
+    7) Флэш-мобы<br>
+    8) Выстави<br>
+    9) Музыкальные концерты<br>
+    10) Организация питания (кейтеринг)<br>
+    11) Организация продаж сувинирной продукции<br>
+  </p>
+  </div>
+  <div class="tab-pane" id="it-tech">
+  <span class="image"><img src="../assets/images/it-tech.jpg" alt="" /></span>
+  <h3>IT-технологии</h3>
+  <p>
+    ?Какое-то описание?<br><br>
+    <b>Организация и проведение мероприятий любой направленности:</b><br>
+    1) Спортивные<br>
+    2) Культурные<br>
+    3) Церемонии открытий и корпоративные мероприятия<br>
+    4) Благотворительные
+    5) Пресс-конференции<br>
+    6) Пиар компаний, рекламные акций<br>
+    7) Флэш-мобы<br>
+    8) Выстави<br>
+    9) Музыкальные концерты<br>
+    10) Организация питания (кейтеринг)<br>
+    11) Организация продаж сувинирной продукции<br>
+  </p>
+  </div>
   <div class="tab-pane" id="prodaction">Производство</div>
   <div class="tab-pane" id="typography">Типография</div>
   <div class="tab-pane" id="advertising">Реклама</div>
   <div class="tab-pane" id="producing">Продюсерство</div>
-  <div class="tab-pane" id="prodaction">Производство</div>
-  <div class="tab-pane" id="organization">Организация</div>
-  <div class="tab-pane" id="media">Медиа</div>
-  <div class="tab-pane" id="it-tech">IT-технологии</div>
-  <div class="tab-pane" id="prodaction">Производство</div>
+  <div class="tab-pane" id="inf-help">Инф. поддержка</div>
+  <div class="tab-pane" id="volunteering">Волонтерство</div>
+  <div class="tab-pane" id="promotion">CМИ</div>
+  <div class="tab-pane" id="analytic">Аналитика</div>
+  <div class="tab-pane" id="design">Дизайн</div>
 </div>
