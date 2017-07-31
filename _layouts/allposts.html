@@ -5,18 +5,27 @@ layout: default
 <!-- Main -->
 <div id="main" class="alt">
 
-<!-- One -->
-<section id="one">
-	<div class="inner">
-                {% for post in site.posts %}
-		<header class="major">
-			<h1>{{ post.title }}</h1>
-		</header>
-		{% if post.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span>{% endif %}
-		{% if post.date %}<p>{{ post.date }}</p>{% endif %}
-		<p>{{ post.content }}</p>
-                {% endfor %}
-	</div>
-</section>
 
-</div>
+<section id="two" class="spotlights">
+  {% for post in site.posts %}
+	<section>
+		<a {% if slide.url %}href="{{ post.url | relative_url }}"{% endif %} class="image">
+			<img src="{{ post.image | relative_url }}" alt="" data-position="center center" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>{{ post.title }}</h3>
+					{% if post.post-date %}<p>{{ post.post-date }}</p>{% endif %}
+				</header>
+				<p>{{ post.post-comment }}</p>
+        {% if post.url %}
+        <ul class="actions">
+					<li><a href="{{ post.url | relative_url }}" class="button">Подробнее</a></li>
+				</ul>
+        {% endif %}
+			</div>
+		</div>
+	</section>
+  {% endfor %}
+</section>

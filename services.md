@@ -24,18 +24,18 @@ permalink: /services
 
 <section>
 <ul class="nav nav-tabs">
-  <li class="active 2u"><a href="#organization" data-toggle="pill">Организация</a></li>
-  <li class="2u"><a href="#media" data-toggle="pill">Медиа</a></li>
-  <li class="2u"><a href="#it-tech" data-toggle="pill">IT-технологии</a></li>
-  <li class="2u"><a href="#prodaction" data-toggle="pill">Производство</a></li>
-  <li class="2u"><a href="#typography" data-toggle="pill">Типография</a></li>
-  <li class="2u"><a href="#advertising" data-toggle="pill">Реклама</a></li>
-  <li class="2u"><a href="#producing" data-toggle="pill">Продюсерство</a></li>
-  <li class="2u"><a href="#inf-help" data-toggle="pill">Инф. поддержка</a></li>
-  <li class="2u"><a href="#volunteering" data-toggle="pill">Волонтерство</a></li>
-  <li class="2u"><a href="#promotion" data-toggle="pill">СМИ</a></li>
-  <li class="2u"><a href="#analytic" data-toggle="pill">Аналитика</a></li>
-  <li class="2u"><a href="#design" data-toggle="pill">Дизайн</a></li>
+  <li class="active 2u 4u(small)"><a href="#organization" data-toggle="pill">Организация</a></li>
+  <li class="2u 4u(small)"><a href="#media" data-toggle="pill">Медиа</a></li>
+  <li class="2u 4u(small)"><a href="#it-tech" data-toggle="pill">IT-технологии</a></li>
+  <li class="2u 4u(small)"><a href="#prodaction" data-toggle="pill">Производство</a></li>
+  <li class="2u 4u(small)"><a href="#typography" data-toggle="pill">Типография</a></li>
+  <li class="2u 4u(small)"><a href="#advertising" data-toggle="pill">Реклама</a></li>
+  <li class="2u 4u(small)"><a href="#producing" data-toggle="pill">Продюсерство</a></li>
+  <li class="2u 4u(small)"><a href="#inf-help" data-toggle="pill">Инф. поддержка</a></li>
+  <li class="2u 4u(small)"><a href="#volunteering" data-toggle="pill">Волонтерство</a></li>
+  <li class="2u 4u(small)"><a href="#promotion" data-toggle="pill">СМИ</a></li>
+  <li class="2u 4u(small)"><a href="#analytic" data-toggle="pill">Аналитика</a></li>
+  <li class="2u 4u(small)"><a href="#design" data-toggle="pill">Дизайн</a></li>
 </ul>
 </section>
 
