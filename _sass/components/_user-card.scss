@@ -69,6 +69,8 @@
         color: _palette(fg);
         text-decoration: none;
         transition: color .3s ease-in-out;
+        outline: none;
+        border-bottom: none;
 
         &:hover {
           color: _palette(highlight);
