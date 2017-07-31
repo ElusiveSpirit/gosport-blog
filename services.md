@@ -43,7 +43,7 @@ permalink: /services
 
 <div class="tab-content">
   <div class="tab-pane active" id="organization">
-    <span class="image"><img src="../assets/images/organization.jpg" alt="" /></span>
+    <span class="image"><img src="./assets/images/organization.jpg" alt="" /></span>
     <h3>Организация</h3>
     <p>
       ?Какое-то описание?<br><br>
@@ -62,7 +62,7 @@ permalink: /services
     </p>
   </div>
   <div class="tab-pane" id="media">
-  <span class="image"><img src="../assets/images/media.jpg" alt="" /></span>
+  <span class="image"><img src="./assets/images/media.jpg" alt="" /></span>
   <h3>Медиа</h3>
   <p>
     ?Какое-то описание?<br><br>
@@ -81,7 +81,7 @@ permalink: /services
   </p>
   </div>
   <div class="tab-pane" id="it-tech">
-  <span class="image"><img src="../assets/images/it-tech.jpg" alt="" /></span>
+  <span class="image"><img src="./assets/images/it-tech.jpg" alt="" /></span>
   <h3>IT-технологии</h3>
   <p>
     ?Какое-то описание?<br><br>
@@ -100,7 +100,7 @@ permalink: /services
   </p>
   </div>
   <div class="tab-pane" id="prodaction">
-  <span class="image"><img src="../assets/images/prodaction.jpg" alt="" /></span>
+  <span class="image"><img src="./assets/images/prodaction.jpg" alt="" /></span>
   <h3>IT-технологии</h3>
   <p>
     ?Какое-то описание?<br><br>
@@ -119,7 +119,7 @@ permalink: /services
   </p>
   </div>
   <div class="tab-pane" id="typography">
-  <span class="image"><img src="../assets/images/typography.jpg" alt="" /></span>
+  <span class="image"><img src="./assets/images/typography.jpg" alt="" /></span>
   <h3>IT-технологии</h3>
   <p>
     ?Какое-то описание?<br><br>
@@ -138,7 +138,7 @@ permalink: /services
   </p>
   </div>
   <div class="tab-pane" id="advertising">
-  <span class="image"><img src="../assets/images/advertising.jpg" alt="" /></span>
+  <span class="image"><img src="./assets/images/advertising.jpg" alt="" /></span>
   <h3>IT-технологии</h3>
   <p>
     ?Какое-то описание?<br><br>
@@ -157,7 +157,7 @@ permalink: /services
   </p>
   </div>
   <div class="tab-pane" id="producing">
-  <span class="image"><img src="../assets/images/producing.jpg" alt="" /></span>
+  <span class="image"><img src="./assets/images/producing.jpg" alt="" /></span>
   <h3>IT-технологии</h3>
   <p>
     ?Какое-то описание?<br><br>
@@ -176,7 +176,7 @@ permalink: /services
   </p>
   </div>
   <div class="tab-pane" id="inf-help">
-  <span class="image"><img src="../assets/images/inf-help.jpg" alt="" /></span>
+  <span class="image"><img src="./assets/images/inf-help.jpg" alt="" /></span>
   <h3>IT-технологии</h3>
   <p>
     ?Какое-то описание?<br><br>
@@ -195,7 +195,7 @@ permalink: /services
   </p>
   </div>
   <div class="tab-pane" id="volunteering">
-  <span class="image"><img src="../assets/images/volunteering.jpg" alt="" /></span>
+  <span class="image"><img src="./assets/images/volunteering.jpg" alt="" /></span>
   <h3>IT-технологии</h3>
   <p>
     ?Какое-то описание?<br><br>
@@ -214,7 +214,7 @@ permalink: /services
   </p>
   </div>
   <div class="tab-pane" id="promotion">
-  <span class="image"><img src="../assets/images/promotion.jpg" alt="" /></span>
+  <span class="image"><img src="./assets/images/promotion.jpg" alt="" /></span>
   <h3>IT-технологии</h3>
   <p>
     ?Какое-то описание?<br><br>
@@ -233,7 +233,7 @@ permalink: /services
   </p>
   </div>
   <div class="tab-pane" id="analytic">
-  <span class="image"><img src="../assets/images/analytic.jpg" alt="" /></span>
+  <span class="image"><img src="./assets/images/analytic.jpg" alt="" /></span>
   <h3>IT-технологии</h3>
   <p>
     ?Какое-то описание?<br><br>
@@ -252,7 +252,7 @@ permalink: /services
   </p>
   </div>
   <div class="tab-pane" id="design">
-  <span class="image"><img src="../assets/images/design.jpg" alt="" /></span>
+  <span class="image"><img src="./assets/images/design.jpg" alt="" /></span>
   <h3>IT-технологии</h3>
   <p>
     ?Какое-то описание?<br><br>
