@@ -6,6 +6,7 @@
   background: _palette(bg-light);
   float: left;
   margin: 10px 10px 0 10px;
+  padding: 0 5px;
 
   @media screen and (max-width: 726px) {
     height: 370px;
@@ -14,11 +15,17 @@
 
   &_small {
     height: 350px;
+
+    img {
+      width: 160px;
+      height: 160px;
+    }
   }
 
   &__header {
     width: 100%;
-    padding: 30px 0;
+    padding: 20px 0;
+    height: 50%;
 
     &__img {
       display: block;
@@ -32,10 +39,12 @@
   &__body {
     text-align: center;
     color: _palette(fg);
+    height: 50%;
 
     &__name {
-      font-size: 1.4em;
+      font-size: 1.2em;
       margin: 0;
+      height: 20%;
     }
 
     &__description {
@@ -43,11 +52,13 @@
       margin: 10px 0;
       font-weight: normal;
       color: #73747d;
+      height: 40%;
     }
 
     &__links {
       list-style: none;
       padding: 0;
+      height: 30%;
 
       li {
         display: inline-block;
