@@ -1,273 +1,55 @@
 ---
-layout: post
+layout: default
 title: Услуги
+description:
+image:
 nav-menu: true
 permalink: /services
 ---
 
-<script>
-  $('#myTab a').click(function (e) {
-    e.preventDefault();
-    $(this).tab('show');
-  })
-  $(function () {
-    $('#myTab a[href="#messages"]').tab('show');
-  })
-  $(function () {
-    $('#myTab a[href="#profile"]').tab('show');
-  })
-  $(function () {
-    $('#myTab a[href="#settings"]').tab('show');
-  })
-  $(function () {
-    $('#myTab a[href="#home"]').tab('show');
-  })
-</script>
+<section id="banner" class="style2">
 
-<ul class="nav nav-tabs" id="myTab">
-  <li class="active 2u 6u(small)"><a href="#organization" data-toggle="pill">Организация</a></li>
-  <li class="2u 6u(small)"><a href="#media" data-toggle="pill">Медиа</a></li>
-  <li class="2u 6u(small)"><a href="#it-tech" data-toggle="pill">IT-технологии</a></li>
-  <li class="2u 6u(small)"><a href="#prodaction" data-toggle="pill">Производство</a></li>
-  <li class="2u 6u(small)"><a href="#typography" data-toggle="pill">Типография</a></li>
-  <li class="2u 6u(small)"><a href="#advertising" data-toggle="pill">Реклама</a></li>
-  <li class="2u 6u(small)"><a href="#producing" data-toggle="pill">Продюсерство</a></li>
-  <li class="2u 6u(small)"><a href="#inf-help" data-toggle="pill">Инф. поддержка</a></li>
-  <li class="2u 6u(small)"><a href="#volunteering" data-toggle="pill">Волонтерство</a></li>
-  <li class="2u 6u(small)"><a href="#promotion" data-toggle="pill">СМИ</a></li>
-  <li class="2u 6u(small)"><a href="#analytic" data-toggle="pill">Аналитика</a></li>
-  <li class="2u 6u(small)"><a href="#design" data-toggle="pill">Дизайн</a></li>
+    <div class="inner">
+        <span class="image">
+            <img src="{% for slide in site.data.services.slides %}{{ slide.image | relative_url }}{% endfor %}" alt="">
+        </span>
+        <header class="major">
+
+            <h1>Услуги</h1>
+
+        </header>
+    </div>
+
+</section>
+
+<section>
+<ul class="nav nav-tabs">
+  <li class="active 2u"><a href="#organization" data-toggle="pill">Организация</a></li>
+  <li class="2u"><a href="#media" data-toggle="pill">Медиа</a></li>
+  <li class="2u"><a href="#it-tech" data-toggle="pill">IT-технологии</a></li>
+  <li class="2u"><a href="#prodaction" data-toggle="pill">Производство</a></li>
+  <li class="2u"><a href="#typography" data-toggle="pill">Типография</a></li>
+  <li class="2u"><a href="#advertising" data-toggle="pill">Реклама</a></li>
+  <li class="2u"><a href="#producing" data-toggle="pill">Продюсерство</a></li>
+  <li class="2u"><a href="#inf-help" data-toggle="pill">Инф. поддержка</a></li>
+  <li class="2u"><a href="#volunteering" data-toggle="pill">Волонтерство</a></li>
+  <li class="2u"><a href="#promotion" data-toggle="pill">СМИ</a></li>
+  <li class="2u"><a href="#analytic" data-toggle="pill">Аналитика</a></li>
+  <li class="2u"><a href="#design" data-toggle="pill">Дизайн</a></li>
 </ul>
+</section>
 
-<br>
-
-<div class="tab-content">
-  <div class="tab-pane active" id="organization">
-    <span class="image"><img src="./assets/images/organization.jpg" alt="" /></span>
-    <h3>Организация</h3>
-    <p>
-      ?Какое-то описание?<br><br>
-      <b>Организация и проведение мероприятий любой направленности:</b><br>
-      1) Спортивные<br>
-      2) Культурные<br>
-      3) Церемонии открытий и корпоративные мероприятия<br>
-      4) Благотворительные
-      5) Пресс-конференции<br>
-      6) Пиар компаний, рекламные акций<br>
-      7) Флэш-мобы<br>
-      8) Выстави<br>
-      9) Музыкальные концерты<br>
-      10) Организация питания (кейтеринг)<br>
-      11) Организация продаж сувинирной продукции<br>
-    </p>
-  </div>
-  <div class="tab-pane" id="media">
-  <span class="image"><img src="./assets/images/media.jpg" alt="" /></span>
-  <h3>Медиа</h3>
-  <p>
-    ?Какое-то описание?<br><br>
-    <b>Организация и проведение мероприятий любой направленности:</b><br>
-    1) Спортивные<br>
-    2) Культурные<br>
-    3) Церемонии открытий и корпоративные мероприятия<br>
-    4) Благотворительные
-    5) Пресс-конференции<br>
-    6) Пиар компаний, рекламные акций<br>
-    7) Флэш-мобы<br>
-    8) Выстави<br>
-    9) Музыкальные концерты<br>
-    10) Организация питания (кейтеринг)<br>
-    11) Организация продаж сувинирной продукции<br>
-  </p>
-  </div>
-  <div class="tab-pane" id="it-tech">
-  <span class="image"><img src="./assets/images/it-tech.jpg" alt="" /></span>
-  <h3>IT-технологии</h3>
-  <p>
-    ?Какое-то описание?<br><br>
-    <b>Организация и проведение мероприятий любой направленности:</b><br>
-    1) Спортивные<br>
-    2) Культурные<br>
-    3) Церемонии открытий и корпоративные мероприятия<br>
-    4) Благотворительные
-    5) Пресс-конференции<br>
-    6) Пиар компаний, рекламные акций<br>
-    7) Флэш-мобы<br>
-    8) Выстави<br>
-    9) Музыкальные концерты<br>
-    10) Организация питания (кейтеринг)<br>
-    11) Организация продаж сувинирной продукции<br>
-  </p>
-  </div>
-  <div class="tab-pane" id="prodaction">
-  <span class="image"><img src="./assets/images/prodaction.jpg" alt="" /></span>
-  <h3>IT-технологии</h3>
-  <p>
-    ?Какое-то описание?<br><br>
-    <b>Организация и проведение мероприятий любой направленности:</b><br>
-    1) Спортивные<br>
-    2) Культурные<br>
-    3) Церемонии открытий и корпоративные мероприятия<br>
-    4) Благотворительные
-    5) Пресс-конференции<br>
-    6) Пиар компаний, рекламные акций<br>
-    7) Флэш-мобы<br>
-    8) Выстави<br>
-    9) Музыкальные концерты<br>
-    10) Организация питания (кейтеринг)<br>
-    11) Организация продаж сувинирной продукции<br>
-  </p>
-  </div>
-  <div class="tab-pane" id="typography">
-  <span class="image"><img src="./assets/images/typography.jpg" alt="" /></span>
-  <h3>IT-технологии</h3>
-  <p>
-    ?Какое-то описание?<br><br>
-    <b>Организация и проведение мероприятий любой направленности:</b><br>
-    1) Спортивные<br>
-    2) Культурные<br>
-    3) Церемонии открытий и корпоративные мероприятия<br>
-    4) Благотворительные
-    5) Пресс-конференции<br>
-    6) Пиар компаний, рекламные акций<br>
-    7) Флэш-мобы<br>
-    8) Выстави<br>
-    9) Музыкальные концерты<br>
-    10) Организация питания (кейтеринг)<br>
-    11) Организация продаж сувинирной продукции<br>
-  </p>
-  </div>
-  <div class="tab-pane" id="advertising">
-  <span class="image"><img src="./assets/images/advertising.jpg" alt="" /></span>
-  <h3>IT-технологии</h3>
-  <p>
-    ?Какое-то описание?<br><br>
-    <b>Организация и проведение мероприятий любой направленности:</b><br>
-    1) Спортивные<br>
-    2) Культурные<br>
-    3) Церемонии открытий и корпоративные мероприятия<br>
-    4) Благотворительные
-    5) Пресс-конференции<br>
-    6) Пиар компаний, рекламные акций<br>
-    7) Флэш-мобы<br>
-    8) Выстави<br>
-    9) Музыкальные концерты<br>
-    10) Организация питания (кейтеринг)<br>
-    11) Организация продаж сувинирной продукции<br>
-  </p>
-  </div>
-  <div class="tab-pane" id="producing">
-  <span class="image"><img src="./assets/images/producing.jpg" alt="" /></span>
-  <h3>IT-технологии</h3>
-  <p>
-    ?Какое-то описание?<br><br>
-    <b>Организация и проведение мероприятий любой направленности:</b><br>
-    1) Спортивные<br>
-    2) Культурные<br>
-    3) Церемонии открытий и корпоративные мероприятия<br>
-    4) Благотворительные
-    5) Пресс-конференции<br>
-    6) Пиар компаний, рекламные акций<br>
-    7) Флэш-мобы<br>
-    8) Выстави<br>
-    9) Музыкальные концерты<br>
-    10) Организация питания (кейтеринг)<br>
-    11) Организация продаж сувинирной продукции<br>
-  </p>
-  </div>
-  <div class="tab-pane" id="inf-help">
-  <span class="image"><img src="./assets/images/inf-help.jpg" alt="" /></span>
-  <h3>IT-технологии</h3>
-  <p>
-    ?Какое-то описание?<br><br>
-    <b>Организация и проведение мероприятий любой направленности:</b><br>
-    1) Спортивные<br>
-    2) Культурные<br>
-    3) Церемонии открытий и корпоративные мероприятия<br>
-    4) Благотворительные
-    5) Пресс-конференции<br>
-    6) Пиар компаний, рекламные акций<br>
-    7) Флэш-мобы<br>
-    8) Выстави<br>
-    9) Музыкальные концерты<br>
-    10) Организация питания (кейтеринг)<br>
-    11) Организация продаж сувинирной продукции<br>
-  </p>
-  </div>
-  <div class="tab-pane" id="volunteering">
-  <span class="image"><img src="./assets/images/volunteering.jpg" alt="" /></span>
-  <h3>IT-технологии</h3>
-  <p>
-    ?Какое-то описание?<br><br>
-    <b>Организация и проведение мероприятий любой направленности:</b><br>
-    1) Спортивные<br>
-    2) Культурные<br>
-    3) Церемонии открытий и корпоративные мероприятия<br>
-    4) Благотворительные
-    5) Пресс-конференции<br>
-    6) Пиар компаний, рекламные акций<br>
-    7) Флэш-мобы<br>
-    8) Выстави<br>
-    9) Музыкальные концерты<br>
-    10) Организация питания (кейтеринг)<br>
-    11) Организация продаж сувинирной продукции<br>
-  </p>
-  </div>
-  <div class="tab-pane" id="promotion">
-  <span class="image"><img src="./assets/images/promotion.jpg" alt="" /></span>
-  <h3>IT-технологии</h3>
-  <p>
-    ?Какое-то описание?<br><br>
-    <b>Организация и проведение мероприятий любой направленности:</b><br>
-    1) Спортивные<br>
-    2) Культурные<br>
-    3) Церемонии открытий и корпоративные мероприятия<br>
-    4) Благотворительные
-    5) Пресс-конференции<br>
-    6) Пиар компаний, рекламные акций<br>
-    7) Флэш-мобы<br>
-    8) Выстави<br>
-    9) Музыкальные концерты<br>
-    10) Организация питания (кейтеринг)<br>
-    11) Организация продаж сувинирной продукции<br>
-  </p>
-  </div>
-  <div class="tab-pane" id="analytic">
-  <span class="image"><img src="./assets/images/analytic.jpg" alt="" /></span>
-  <h3>IT-технологии</h3>
-  <p>
-    ?Какое-то описание?<br><br>
-    <b>Организация и проведение мероприятий любой направленности:</b><br>
-    1) Спортивные<br>
-    2) Культурные<br>
-    3) Церемонии открытий и корпоративные мероприятия<br>
-    4) Благотворительные
-    5) Пресс-конференции<br>
-    6) Пиар компаний, рекламные акций<br>
-    7) Флэш-мобы<br>
-    8) Выстави<br>
-    9) Музыкальные концерты<br>
-    10) Организация питания (кейтеринг)<br>
-    11) Организация продаж сувинирной продукции<br>
-  </p>
-  </div>
-  <div class="tab-pane" id="design">
-  <span class="image"><img src="./assets/images/design.jpg" alt="" /></span>
-  <h3>IT-технологии</h3>
-  <p>
-    ?Какое-то описание?<br><br>
-    <b>Организация и проведение мероприятий любой направленности:</b><br>
-    1) Спортивные<br>
-    2) Культурные<br>
-    3) Церемонии открытий и корпоративные мероприятия<br>
-    4) Благотворительные
-    5) Пресс-конференции<br>
-    6) Пиар компаний, рекламные акций<br>
-    7) Флэш-мобы<br>
-    8) Выстави<br>
-    9) Музыкальные концерты<br>
-    10) Организация питания (кейтеринг)<br>
-    11) Организация продаж сувинирной продукции<br>
-  </p>
-  </div>
-</div>
+<section class="service">
+  {% for slide in site.data.services.slides %}
+	<section>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>{{ slide.title }}</h3>
+				</header>
+				<p>{{ slide.body }}</p>
+			</div>
+		</div>
+	</section>
+  {% endfor %}
+</section>

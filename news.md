@@ -9,4 +9,4 @@ author: null
 permalink: /news
 ---
 
-<h1>All posts</h1>
+<h1>Новости</h1>
