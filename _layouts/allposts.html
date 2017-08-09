@@ -10,7 +10,7 @@ layout: default
   {% for post in site.posts %}
 	<section>
 		<a {% if slide.url %}href="{{ post.url | relative_url }}"{% endif %} class="image"
-        style="background: url({{ post.image | relative_url }}) no-repeat center; background-position: ">
+        style="background: url({{ post.image | relative_url }}) no-repeat center; background-size: cover;">
 		</a>
 		<div class="content">
 			<div class="inner">
