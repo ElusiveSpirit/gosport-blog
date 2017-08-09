@@ -39,7 +39,7 @@ layout: default
   {% for slide in site.data.about.slides %}
 	<section>
 		<a {% if slide.url %}href="{{ slide.url | relative_url }}"{% endif %} class="image">
-			<img src="{{ slide.image | relative_url }}" alt="" data-position="center center" />
+			<img src="{{ slide.image | relative_url }}" alt="" data-position="center center" style="display: block;" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -77,7 +77,7 @@ layout: default
   {% for slide in site.data.about.business-slides %}
 	<section>
 		<a {% if slide.url %}href="{{ slide.url | relative_url }}"{% endif %} class="image">
-			<img src="{{ slide.image | relative_url }}" alt="" data-position="center center" />
+			<img src="{{ slide.image | relative_url }}" alt="" data-position="center center" style="display: block;" />
 		</a>
 		<div class="content">
 			<div class="inner">
