@@ -28,8 +28,12 @@
 
 				img {
 					border-radius: 0;
-					display: block;
+					display: none;
 					width: 100%;
+
+					@media screen and (max-width: 726px) {
+						display: block;
+					}
 				}
 
 				&:before {

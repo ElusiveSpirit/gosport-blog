@@ -11,6 +11,7 @@ layout: default
 	<section>
 		<a {% if slide.url %}href="{{ post.url | relative_url }}"{% endif %} class="image"
         style="background: url({{ post.image | relative_url }}) no-repeat center; background-size: cover;">
+        <img src="{{ post.image | relative_url }}" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
