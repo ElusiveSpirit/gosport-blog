@@ -9,8 +9,8 @@ layout: default
 <section id="two" class="spotlights">
   {% for post in site.posts %}
 	<section>
-		<a {% if slide.url %}href="{{ post.url | relative_url }}"{% endif %} class="image">
-			<img src="{{ post.image | relative_url }}" alt="" data-position="center center" />
+		<a {% if slide.url %}href="{{ post.url | relative_url }}"{% endif %} class="image"
+        style="background: url({{ post.image | relative_url }}) no-repeat center; background-position: ">
 		</a>
 		<div class="content">
 			<div class="inner">
