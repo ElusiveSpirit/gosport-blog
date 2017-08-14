@@ -6,7 +6,7 @@ lang: ru_RU
 name: GOSPORT - молодёжное общественное движение
 description: Мы - молодёжное общественное движение, объединяющее жителей нашей страны. Миссия нашего движения – дать молодым и активным ребятам возможность реализовать свои проекты на благо нашей родины.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "gosport.online" # the base hostname & protocol for your site
+url: "https://gosport.online" # the base hostname & protocol for your site
 author:
 street_address: Большой Ржевский переулок, 5
 city: Москва
