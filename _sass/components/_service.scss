@@ -32,3 +32,17 @@
   }
 }
 }
+
+.hide-small {
+  @media screen and (max-width: 726px) {
+    display: none;
+  }
+}
+
+.show-small-block {
+  display: none;
+
+  @media screen and (max-width: 726px) {
+    display: block;
+  }
+}
