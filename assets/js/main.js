@@ -82,8 +82,8 @@ var pageScripts = {
       }
     });
     // Banner.
-    $banner.each(function() {
-      var $this = $(this),
+    function animateBanner(banner) {
+      var $this = banner || $(this),
         $image = $this.find('.image'),
         $img = $image.find('img');
       // Parallax.
@@ -95,7 +95,10 @@ var pageScripts = {
         // Hide original.
         $image.hide();
       }
-    });
+    }
+    window.animateBanner = animateBanner;
+
+    $banner.each(animateBanner);
   }
 };
 
