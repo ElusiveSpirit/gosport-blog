@@ -99,6 +99,8 @@ var pageScripts = {
     window.animateBanner = animateBanner;
 
     $banner.each(animateBanner);
+
+    initTabs();
   }
 };
 

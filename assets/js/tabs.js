@@ -1,4 +1,5 @@
-(function() {
+
+function initTabs() {
 
   var currentTab = location.hash || '#organization';
 
@@ -43,4 +44,4 @@
     openTab(newTab);
     currentTab = newTab;
   });
-})();
+};
