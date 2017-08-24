@@ -34,6 +34,7 @@
 
 	};
 
+
 	/**
 	 * Panel-ify an element.
 	 * @param {object} userConfig User config.
@@ -585,3 +586,7 @@
 	};
 
 })(jQuery);
+
+function isMobile() {
+	return window.matchMedia("only screen and (max-width: 726px)").matches;
+}

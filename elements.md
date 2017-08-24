@@ -1,6 +1,5 @@
----
 layout: default
-title: Elements
+title: Элементы
 nav-menu: true
 ---
 

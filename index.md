@@ -1,10 +1,12 @@
 ---
 layout: home
-title: Home
+title: Главная
 landing-title: 'GoSport Online'
 description: null
-image: null
+image: home.jpg
 author: null
 ---
 
-Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.
+На данный момент социальная сеть #GO находится в открытом альфа тестировании, поэтому Вы можете уже сейчас
+зарегистрироваться и стать одним из первых, кто помогает в нашем развитии. Новый дизайн социальной сети,
+а также создание кучи новых функций и удобных вещей уже запланированы на ближайшее время.

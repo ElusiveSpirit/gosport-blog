@@ -1,0 +1,45 @@
+---
+layout: default
+---
+<section id="banner" class="style2">
+    <div class="inner">
+        <span class="image">
+            <img id="bannerImage" alt="">
+        </span>
+        <header class="major">
+            <h1>Услуги</h1>
+        </header>
+    </div>
+</section>
+
+<section>
+<ul id="ulSelectWrapper" class="nav nav-tabs hide-small">
+  {% for service in site.data.services.slides %}
+    <li class="2u 4u(small)"><a href="#{{ service.slug }}" data-toggle="pill">{{ service.title }}</a></li>
+  {% endfor %}
+</ul>
+
+<div id="tabSelectWrapper" class="inner show-small-block">
+  <div class="select-wrapper">
+    <select>
+      {% for service in site.data.services.slides %}
+      <option value="#{{ service.slug }}">{{ service.title }}</option>
+      {% endfor %}
+    </select>
+  </div>
+</div>
+
+</section>
+
+<div id="main">
+  {% for slide in site.data.services.slides %}
+  <section id="{{ slide.slug }}" class="js-tabs" data-src="{{ slide.image }}">
+		<div class="inner">
+			<header class="major">
+				<h3>{{ slide.title }}</h3>
+			</header>
+			<p>{{ slide.body }}</p>
+		</div>
+  </section>
+  {% endfor %}
+</div>

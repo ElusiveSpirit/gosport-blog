@@ -65,7 +65,7 @@
   }
 
   function linkListener(event) {
-    if (this.href.indexOf('#') !== -1)
+    if (this.href.indexOf('#') !== -1 || !this.href || this.href === '')
       return false
 
     // Prevent default.

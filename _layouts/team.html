@@ -1,0 +1,54 @@
+---
+layout: default
+---
+<!-- Main -->
+<div id="main" class="alt">
+
+<!-- One -->
+<section id="one">
+	<div class="inner">
+		<header class="major">
+			<h1>{{ page.title }}</h1>
+		</header>
+		<div class="user-card__container">
+			{% for user in site.data.team.team %}
+			<div class="user-card">
+			  <div class="user-card__header">
+			    <img src="{{ user.image }}" class="user-card__header__img" alt="" />
+			  </div>
+			  <div class="user-card__body">
+			    <h3 class="user-card__body__name">{{ user.name }}</h3>
+			    <p class="user-card__body__description">
+			      {{ user.title }}
+			    </p>
+			    <ul class="user-card__body__links">
+			      <li><a href="{{ user.vk }}" rel="nofollow" target="_blank"><i class="fa fa-vk"></i></a></li>
+			    </ul>
+			  </div>
+			</div>
+			{% endfor %}
+		</div>
+		{% comment %}
+		<header class="major">
+			<h2>Поддержка со стороны фонда "СОЦМЕДИАСПОРТ"</h2>
+		</header>
+		<div class="user-card__container">
+			{% for user in site.data.team.fond %}
+			<div class="user-card user-card_small">
+			  <div class="user-card__header">
+			    <img src="{{ user.image }}" class="user-card__header__img" alt="" />
+			  </div>
+			  <div class="user-card__body">
+			    <h3 class="user-card__body__name">{{ user.name }}</h3>
+			    <p class="user-card__body__description">
+			      {{ user.title }}
+			    </p>
+			  </div>
+			</div>
+			{% endfor %}
+		</div>
+		{% endcomment %}
+	</div>
+</section>
+
+</div>

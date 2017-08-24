@@ -1,0 +1,64 @@
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+<script type="text/javascript">
+      ymaps.ready(init);
+      var myMap,
+          myPlacemarkMeat,
+    myPlacemarkJiv;
+
+      function init(){
+          myMap = new ymaps.Map("map", {
+              center: [55.763996, 37.634151],
+              zoom: 12
+          });
+          myMap.behaviors.disable('scrollZoom');
+
+          myPlacemarkMeat = new ymaps.Placemark([55.764011, 37.634140], {
+              hintContent: 'Мясо',
+              balloonContent: 'Метро Чистые пруды, Мясницкая улица, 21 стр. 8<br>Часы работы: с 8:00 до 22:00<br>Ребята собираются в основном взрослые под вечер, в 18-19 часов<br>Дети и подростки периодически подходят к 15-16 часам<br>Синтетическое покрытие, новая площадка'
+          });
+
+    myPlacemarkJiv = new ymaps.Placemark([55.777152,  37.644219], {
+              hintContent: 'Живарево, Гроха',
+              balloonContent: 'Метро Проспект мира - Сухоревская, Живарёв переулок, 8 стр. 3, за магазином "7 континент"<br>Часы работы: круглосуточно<br>В основном собираются ребята по выходным с 15-16 часов<br>Синтетическое покрытие'
+          });
+
+    myPlacemark10 = new ymaps.Placemark([55.757001, 37.656201], {
+              hintContent: '10-ка',
+              balloonContent: 'Метро Курская, Улица Земляной Вал, 24/32<br>Часы работы: круглосуточно<br>Резиновое покрытие'
+          });
+
+    myPlacemarkEkat = new ymaps.Placemark([55.783282, 37.622255], {
+              hintContent: 'Спортвиная площадка в Екатериненском саду',
+              balloonContent: 'Метро Достоевская, Екатерининский сад<br>Часы работы: 7-23<br>Старое синтетическое покрытие'
+          });
+
+    myPlacemarkArbat = new ymaps.Placemark([55.751746, 37.582064], {
+              hintContent: 'Спортивная площадка на Арбате',
+              balloonContent: 'Метро Смоленская, Новинский бульвар, 7<br>Часы работы: круглосуточно<br>Резиновое покрытие, новая площадка'
+          });
+
+    myPlacemarkMoscowCity = new ymaps.Placemark([55.754318, 37.548355], {
+              hintContent: 'Спортивная площадка "Moscow city"',
+              balloonContent: 'Метро Выстовочная, Парк Красная Пресня<br>Часы работы: круглосуточно<br>Синтетическое покрытие'
+          });
+
+    myPlacemarkPushka = new ymaps.Placemark([55.770230, 37.677670], {
+              hintContent: 'Пушка',
+              balloonContent: 'Метро Бауманская, Бауманская улица, 40<br>Часы работы: круглосуточно<br>Старое резиновое покрытие'
+          });
+
+    myPlacemarkFOKTaganka = new ymaps.Placemark([55.770230, 37.677670], {
+              hintContent: 'ФОК на Таганке',
+              balloonContent: 'Метро Римская, Рабочая улица, 30 стр. 3<br>Часы работы: в зависимости от мероприятия<br>Хороший, светлый спортивный зал, проводится футбол и волейбол'
+          });
+
+          myMap.geoObjects.add(myPlacemarkMeat);
+    myMap.geoObjects.add(myPlacemarkJiv);
+    myMap.geoObjects.add(myPlacemark10);
+    myMap.geoObjects.add(myPlacemarkEkat);
+    myMap.geoObjects.add(myPlacemarkArbat);
+    myMap.geoObjects.add(myPlacemarkMoscowCity);
+    myMap.geoObjects.add(myPlacemarkPushka);
+    myMap.geoObjects.add(myPlacemarkFOKTaganka);
+      }
+  </script>

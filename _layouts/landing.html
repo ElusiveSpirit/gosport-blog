@@ -2,10 +2,10 @@
 layout: default
 ---
 
-<section id="banner" class="style2">
+<section id="banner" class="style-landing">
     <div class="inner">
         <span class="image">
-            <img src="{{ site.baseurl }}/{{ page.image }}" alt="">
+            <img src="{{ page.image | relative_url }}" alt="">
         </span>
         <header class="major">
 
@@ -20,4 +20,99 @@ layout: default
     </div>
 </section>
 
-{{ content }}
+
+<!-- Main -->
+<div id="main">
+
+<!-- One -->
+<section id="one">
+	<div class="inner">
+		<header class="major">
+			<h2>{{ site.data.about.first-slide.title }}</h2>
+		</header>
+		<p>{{ site.data.about.first-slide.body }}</p>
+	</div>
+</section>
+
+<!-- Two -->
+<section id="two" class="spotlights">
+  {% for slide in site.data.about.slides %}
+	<section>
+		<a {% if slide.url %}href="{{ slide.url | relative_url }}"{% endif %} class="image">
+			<img src="{{ slide.image | relative_url }}" alt="" data-position="center center" style="display: block;" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>{{ slide.title }}</h3>
+				</header>
+				<p>{{ slide.body }}</p>
+        {% if slide.url %}
+        <ul class="actions">
+					<li><a href="{{ slide.url | relative_url }}" class="button">Подробнее</a></li>
+				</ul>
+        {% endif %}
+			</div>
+		</div>
+	</section>
+  {% endfor %}
+</section>
+
+
+<section class="spotlights">
+  <section class="statistics">
+    <div class="content">
+      <div class="inner">
+        <div class="row">
+          {% for statistic in site.data.about.statistics %}
+          <div class="4u 12u$(medium)">
+            <h1>{{ statistic.title }}</h1>
+            <p>{{ statistic.body }}</p>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </section>
+  {% for slide in site.data.about.business-slides %}
+	<section>
+		<a {% if slide.url %}href="{{ slide.url | relative_url }}"{% endif %} class="image">
+			<img src="{{ slide.image | relative_url }}" alt="" data-position="center center" style="display: block;" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>{{ slide.title }}</h3>
+				</header>
+				<p>{{ slide.body }}</p>
+        {% if slide.url %}
+        <ul class="actions">
+					<li><a href="{{ slide.url | relative_url }}" class="button">Подробнее</a></li>
+				</ul>
+        {% endif %}
+			</div>
+		</div>
+	</section>
+  {% endfor %}
+</section>
+
+<!-- Three -->
+<section id="three">
+	<div class="inner">
+		<header class="major">
+			<h2>{{ site.data.about.last-slide.title }}</h2>
+		</header>
+		<p>{{ site.data.about.last-slide.body }}</p>
+		<ul class="actions">
+			<li><a href="https://gosport.online" class="button next">Присоединиться</a></li>
+		</ul>
+	</div>
+</section>
+
+<section>
+  <div id="map"></div>
+</section>
+
+</div>
+
+{% include map.html %}
