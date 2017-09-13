@@ -20,6 +20,10 @@
           if (pushState) {
             history.pushState(null, title, href);
           }
+
+          ga('set', 'page', location.pathname);
+          ga('send', 'pageview');
+          
           $('#wrapper').html(html);
 
           window.scrollTo(0, 0);
