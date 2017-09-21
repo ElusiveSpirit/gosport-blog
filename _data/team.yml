@@ -1,36 +1,36 @@
 team:
   - name: Христиан Сенчугов
-    image: https://pp.userapi.com/c841224/v841224197/6b58/c6Xj4aij8pU.jpg
+    image: /assets/images/avatars/chris.jpg
     title: Основал тут всё
     vk: https://vk.com/khrisde
 
   - name: Михаил Гуляев
-    image: https://pp.userapi.com/c836634/v836634782/12678/BPmXewiGz30.jpg
+    image: http://fondhd.ru/upload/medialibrary/a58/a5817de8508f4eceb77a0e17799b8945.jpg
     title: Много всего умеет и делает
     vk: https://vk.com/m_gulaev
 
   - name: Константин Маняхин
-    image: https://pp.userapi.com/c638931/v638931208/22e9f/wkcBFfu01tY.jpg
+    image: /assets/images/avatars/konstantin.jpg
     title: Смыслит в IT
     vk: https://vk.com/konstantinmk
 
   - name: Никита Озерицкий
-    image: https://pp.userapi.com/c836334/v836334166/4cb91/GJMgsnmerpY.jpg
+    image: /assets/images/avatars/nikita.jpg
     title: Крутой мэн
     vk: https://vk.com/ozerickiy
 
   - name: Даниил Миронов
-    image: https://pp.userapi.com/c637316/v637316404/63c7c/Vtnm8yN67DE.jpg
+    image: /assets/images/avatars/daniil.jpg
     title: Журналист? Это к нему
     vk: https://vk.com/danyamur
 
   - name: Азамат Нурланов
-    image: https://pp.userapi.com/c639719/v639719255/333ab/7-H64_3Gz6s.jpg
+    image: /assets/images/avatars/azamat.jpg
     title: Ни турнира без него
     vk: https://vk.com/id342352255
 
   - name: Дмитрий Репин
-    image: https://pp.userapi.com/c623318/v623318300/474f9/ZETRiRzNhlM.jpg
+    image: /assets/images/avatars/repin.png
     title: Умно составляет предложения
     vk: https://vk.com/repan25
 

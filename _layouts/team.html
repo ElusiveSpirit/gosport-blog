@@ -19,7 +19,8 @@ layout: default
 			  <div class="user-card__body">
 			    <h3 class="user-card__body__name">{{ user.name }}</h3>
 			    <p class="user-card__body__description">
-			      {{ user.title }}
+						<br>
+								{% comment %}      {{ user.title }}					{% endcomment %}
 			    </p>
 			    <ul class="user-card__body__links">
 			      <li><a href="{{ user.vk }}" rel="nofollow" target="_blank"><i class="fa fa-vk"></i></a></li>
