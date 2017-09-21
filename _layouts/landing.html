@@ -49,7 +49,7 @@ layout: default
 				<p>{{ slide.body }}</p>
         {% if slide.url %}
         <ul class="actions">
-					<li><a href="{{ slide.url | relative_url }}" class="button">Подробнее</a></li>
+					<li><a href="{{ slide.url }}" class="button">{% if slide.url-text %}{{ slide.url-text }}{% else %}Подробнее{% endif %}</a></li>
 				</ul>
         {% endif %}
 			</div>
