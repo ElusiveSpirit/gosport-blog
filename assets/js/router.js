@@ -23,8 +23,10 @@
 
           ga('set', 'page', location.pathname);
           ga('send', 'pageview');
-          
+
           $('#wrapper').html(html);
+
+          addthis.layers.refresh();
 
           window.scrollTo(0, 0);
           resolve();
