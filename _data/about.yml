@@ -25,7 +25,7 @@ slides:
 business-slides:
   - title: Партнёры
     image: /assets/images/landing/partners.jpg
-    body: 'Молодежное движение #GoSport существует при поддержке <a href="https://www.mos.ru/kos/" target="_blank">Правительства Москвы</a> и <a href="http://fondhd.ru" target="_blank">фонда "СОЦМЕДИАСПОРТ"</a>'
+    body: '<a href="https://www.mos.ru/kos/" target="_blank">Правительство Москвы</a><br> <a href="http://fondhd.ru" target="_blank">фонд "СОЦМЕДИАСПОРТ"</a>'
     url:
   - title: Услуги
     image: /assets/images/landing/services.jpg
