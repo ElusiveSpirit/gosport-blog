@@ -2,7 +2,7 @@
 layout: post
 title: Скоро! Первый молодёжный Кубок болельщиков Сборной России по футболу 2018
 description: Стань игроком Сборной команды болельщиков России!
-image: assets/images/posts/2016-09-04-12.jpg
+image: assets/images/posts/tortaiment.jpg
 post-date: 30 Ноября 2017
 post-comment: Стань игроком Сборной команды болельщиков России и войди в историю Чемпионата!
 ---
