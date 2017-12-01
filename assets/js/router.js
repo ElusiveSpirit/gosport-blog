@@ -76,8 +76,11 @@
 
     // Prevent default.
     event.preventDefault();
-
-    animatedPageLoading.bind(this)(this.href);
+    try {
+      animatedPageLoading.bind(this)(this.href);
+    } catch (e) {
+      location.href = this.href;
+    }
   }
 
   function addLinkListeners() {
