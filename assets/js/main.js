@@ -67,7 +67,7 @@ var pageScripts = {
         $x;
       // Image.
       // Set image.
-      $this.css('background-image', 'url(' + $img.attr('src') + ')');
+      $this.css('background-image', 'url(' + $img.attr('img-src') + ')');
       // Set position.
       if (x = $img.data('position')) $image.css('background-position', x);
       // Hide original.
@@ -116,6 +116,7 @@ var pageScripts = {
 		xxsmall: '(max-width: 360px)'
 	});
 
+  $('body').addClass('is-loading');
 
 	$(function() {
 
@@ -126,7 +127,7 @@ var pageScripts = {
 			$banner = $('#banner');
 
 		// Disable animations/transitions until the page has loaded.
-			$body.addClass('is-loading');
+			// $body.addClass('is-loading');
 
 			$window.on('load pageshow', function() {
 				window.setTimeout(function() {
