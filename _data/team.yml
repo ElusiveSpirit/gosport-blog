@@ -4,15 +4,15 @@ team:
     title: Основал тут всё
     vk: https://vk.com/khrisde
 
-  - name: Михаил Гуляев
-    image: http://fondhd.ru/upload/medialibrary/a58/a5817de8508f4eceb77a0e17799b8945.jpg
-    title: Много всего умеет и делает
-    vk: https://vk.com/m_gulaev
-
   - name: Константин Маняхин
     image: /assets/images/avatars/konstantin.jpg
     title: Смыслит в IT
     vk: https://vk.com/konstantinmk
+    
+  - name: Михаил Гуляев
+    image: http://fondhd.ru/upload/medialibrary/a58/a5817de8508f4eceb77a0e17799b8945.jpg
+    title: Много всего умеет и делает
+    vk: https://vk.com/m_gulaev
 
   - name: Никита Озерицкий
     image: /assets/images/avatars/nikita.jpg
